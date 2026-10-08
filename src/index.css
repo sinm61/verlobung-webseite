@@ -1,0 +1,4 @@
+html { min-width: 320px; background: #f8f5ef; scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; background: #f8f5ef; }
+button { -webkit-tap-highlight-color: transparent; }
+button:focus-visible { outline: 2px solid #f6e7bd; outline-offset: 4px; }
