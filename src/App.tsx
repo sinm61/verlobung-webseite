@@ -22,17 +22,17 @@ const invitation = {
 };
 
 const gallery = [
+   { src: hands, alt: "Nişan yüzüğümüz", format: "landscape" },
   { src: proposalClose, alt: "Göl kenarında güzel bir an", format: "landscape" },
   { src: ringBouquet, alt: "Nişan yüzüğü ve çiçekler", format: "landscape" },
   { src: dinnerEvening, alt: "Göl kenarında romantik akşam yemeği", format: "portrait" },
-  { src: hands, alt: "Nişan yüzüğümüz", format: "landscape" },
   { src: memoryEmbrace, alt: "Göl kenarında sarıldığımız an", format: "portrait" },
-  { src: memoryBouquet, alt: "Çiçeklerle geçen güzel bir an", format: "landscape" },
+  // { src: memoryBouquet, alt: "Çiçeklerle geçen güzel bir an", format: "landscape" },
   { src: memoryTogether, alt: "Birlikte geçirdiğimiz özel an", format: "landscape" },
   { src: memoryLakeEmbrace, alt: "Göl kenarında huzurlu bir an", format: "landscape" },
   { src: memoryCake, alt: "Bu güne ait tatlı bir anı", format: "portrait" },
   { src: memoryLakeside, alt: "Göl kenarında birlikte", format: "portrait" },
-  { src: memoryEveningEmbrace, alt: "Akşamın güzel anısı", format: "portrait" },
+  // { src: memoryEveningEmbrace, alt: "Akşamın güzel anısı", format: "portrait" },
 ];
 
 const schedule = [
