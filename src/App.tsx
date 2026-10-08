@@ -7,12 +7,12 @@ import proposalClose from "./assets/proposal-close.jpeg";
 import ringBouquet from "./assets/ring-bouquet.jpeg";
 import hands from "./assets/hands.jpeg";
 import memoryEmbrace from "./assets/memory-embrace.jpeg";
-import memoryBouquet from "./assets/memory-bouquet.jpeg";
+// import memoryBouquet from "./assets/memory-bouquet.jpeg";
 import memoryTogether from "./assets/memory-together.jpeg";
 import memoryLakeEmbrace from "./assets/memory-lake-embrace.jpeg";
 import memoryCake from "./assets/memory-cake.jpeg";
 import memoryLakeside from "./assets/memory-lakeside.jpeg";
-import memoryEveningEmbrace from "./assets/memory-evening-embrace.jpeg";
+// import memoryEveningEmbrace from "./assets/memory-evening-embrace.jpeg";
 
 const invitation = {
   names: "Sinem & Oğuzhan",
