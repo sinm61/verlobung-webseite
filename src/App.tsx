@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import envelopeImage from "./assets/envelope.png";
 import proposalWide from "./assets/proposal-wide.jpeg";
-import dinnerEvening from "./assets/dinner-evening.jpeg";
+//import dinnerEvening from "./assets/dinner-evening.jpeg";
 import proposalClose from "./assets/proposal-close.jpeg";
 import ringBouquet from "./assets/ring-bouquet.jpeg";
 import hands from "./assets/hands.jpeg";
@@ -25,7 +25,7 @@ const gallery = [
    { src: hands, alt: "Nişan yüzüğümüz", format: "landscape" },
   { src: proposalClose, alt: "Göl kenarında güzel bir an", format: "landscape" },
   { src: ringBouquet, alt: "Nişan yüzüğü ve çiçekler", format: "landscape" },
-  { src: dinnerEvening, alt: "Göl kenarında romantik akşam yemeği", format: "portrait" },
+  //{ src: dinnerEvening, alt: "Göl kenarında romantik akşam yemeği", format: "portrait" },
   { src: memoryEmbrace, alt: "Göl kenarında sarıldığımız an", format: "portrait" },
   // { src: memoryBouquet, alt: "Çiçeklerle geçen güzel bir an", format: "landscape" },
   { src: memoryTogether, alt: "Birlikte geçirdiğimiz özel an", format: "landscape" },
@@ -183,7 +183,6 @@ function App() {
       <section className="closing-section">
         <div className="closing-image"><img src={proposalClose} alt="Sinemy ve Oğuzhan evlilik teklifinde" /></div>
         <div className="closing-copy">
-          <p className="eyebrow">Sizlerle</p>
           <h2>Sizleri<br /><em>bekliyoruz.</em></h2>
           <p>Sevgi, birbirine bakmak değil; birlikte aynı yöne bakmaktır.</p>
           <button className="share-button" onClick={() => void shareInvitation()}>
