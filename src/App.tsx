@@ -30,8 +30,8 @@ const gallery = [
   { src: memoryTogether, alt: "Birlikte geçirdiğimiz özel an", format: "landscape" },
   { src: memoryLakeEmbrace, alt: "Göl kenarında huzurlu bir an", format: "landscape" },
   { src: memoryEmbrace, alt: "Göl kenarında sarıldığımız an", format: "portrait" },
-  { src: memoryCake, alt: "Bu güne ait tatlı bir anı", format: "portrait" },
   { src: memoryLakeside, alt: "Göl kenarında birlikte", format: "portrait" },
+    { src: memoryCake, alt: "Bu güne ait tatlı bir anı", format: "portrait" },
   // { src: memoryEveningEmbrace, alt: "Akşamın güzel anısı", format: "portrait" },
 ];
 
