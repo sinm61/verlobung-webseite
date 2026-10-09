@@ -205,7 +205,7 @@ function App() {
       </section>
 
       <footer>
-        Sinemy &amp; Oğuzhan <span>♡</span> 2026
+        Sinem &amp; Oğuzhan <span>♡</span> 2026
       </footer>
     </main>
   );
