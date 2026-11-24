@@ -28,7 +28,7 @@ button { font: inherit; }
 h1, h2 { font-family: "Cormorant Garamond", Georgia, serif; font-weight: 500; }
 h1 { font-family: "Italiana", "Cormorant Garamond", serif; font-size: clamp(46px, 13vw, 68px); letter-spacing: .035em; line-height: .98; margin: 0; text-shadow: 0 2px 20px rgba(0,0,0,.2); }
 .hero-date { margin: 22px 0 0; font: 500 11px "DM Sans", sans-serif; letter-spacing: .25em; }
-.hero-scroll { margin-top: auto; color: inherit; background: transparent; border: 1px solid rgba(255,255,255,.68); border-radius: 100px; padding: 13px 21px; font: 500 10px "DM Sans", sans-serif; letter-spacing: .14em; text-transform: uppercase; display: flex; align-items: center; gap: 11px; }
+.hero-scroll { margin: auto 0 24px; color: inherit; background: transparent; border: 1px solid rgba(255,255,255,.68); border-radius: 100px; padding: 13px 21px; font: 500 10px "DM Sans", sans-serif; letter-spacing: .14em; text-transform: uppercase; display: flex; align-items: center; gap: 11px; }
 .hero-scroll .arrow-down { font-size: 17px; }
 .paper-section, .details-section, .gallery-section { padding: 76px 28px; max-width: 580px; margin: 0 auto; }
 .paper-section { position: relative; text-align: center; background: var(--paper); }
