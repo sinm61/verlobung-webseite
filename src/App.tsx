@@ -126,7 +126,7 @@ function App() {
 
       <section className="location-section">
         <img className="floral-decoration floral-location" src={floralCorner} alt="" aria-hidden="true" />
-        <p className="section-number">03</p>
+        <p className="section-number">02</p>
         <p className="eyebrow ink">Konum</p>
         <h2>
           Buluşma
