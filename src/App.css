@@ -40,6 +40,7 @@ h2 em { font-weight: 400; }
 .flourish { margin: 25px 0 22px; color: var(--moss); font-size: 17px; }
 .body-copy { max-width: 370px; margin: 0 auto; color: #675b54; font: 400 16px/1.6 "Cormorant Garamond", Georgia, serif; }
 .invitation-date { margin: 37px 0 0; color: var(--moss); font: 400 clamp(42px, 12vw, 57px)/1 "Cormorant Garamond", Georgia, serif; letter-spacing: .035em; }
+.invitation-time { margin: 10px 0 0; color: var(--taupe); font: 500 11px "DM Sans", sans-serif; letter-spacing: .18em; text-transform: uppercase; }
 .feature-photo { height: 440px; position: relative; }
 .feature-photo img { object-position: 53% center; filter: saturate(.77) brightness(.86); }
 .photo-caption { position: absolute; right: 24px; bottom: 23px; color: #fff; display: grid; text-align: right; text-shadow: 0 2px 10px #0008; }

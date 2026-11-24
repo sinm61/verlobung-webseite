@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import envelopeImage from "./assets/envelope.png";
-import proposalWide from "./assets/proposal-wide.jpeg";
-import proposalClose from "./assets/proposal-close.jpeg";
 import hands from "./assets/hands.jpeg";
 
 const invitation = {
@@ -12,17 +10,6 @@ const invitation = {
   mapsUrl:
     "https://www.google.com/maps/place//data=!4m2!3m1!1s0x479b14b62b205e77:0x9308c455c07f0faa?sa=X&ved=1t:8290&ictx=111",
 };
-
-const schedule = [
-  ["17:00", "Karşılama"],
-  ["17:30", "Birlikte Girişimiz"],
-  ["19:00", "Dans ve Eğlence"],
-  ["19:30", "Yüzük Merasimi"],
-  ["20:00", "Yemek Servisi"],
-  ["20:30", "Pasta Kesimi"],
-  ["21:00", "Eğlence"],
-  ["00:00", "Kapanış"],
-];
 
 function ArrowDown() {
   return (
@@ -132,28 +119,7 @@ function App() {
           bir yere sahip olan sizlerle paylaşmak istiyoruz.
         </p>
         <p className="invitation-date">12.12.2026</p>
-      </section>
-
-      <section className="feature-photo photo-story">
-        <img src={proposalWide} alt="Göl kıyısında evlilik teklifi" />
-        <div className="photo-caption">
-          <span>Bir an</span>
-          <strong>sonsuza dek</strong>
-        </div>
-      </section>
-
-      <section className="details-section">
-        <p className="section-number">02</p>
-        <h2 className="schedule-title">Nişan Akışı</h2>
-        <p className="schedule-subtitle">Birlikte kutlayalım.</p>
-        <div className="schedule-list">
-          {schedule.map(([time, event]) => (
-            <div className="schedule-row" key={time}>
-              <time>{time}</time>
-              <strong>{event}</strong>
-            </div>
-          ))}
-        </div>
+        <p className="invitation-time">Saat 17:00</p>
       </section>
 
       <section className="location-section">
@@ -180,12 +146,6 @@ function App() {
       </section>
 
       <section className="closing-section">
-        <div className="closing-image">
-          <img
-            src={proposalClose}
-            alt="Sinemy ve Oğuzhan evlilik teklifinde"
-          />
-        </div>
         <div className="closing-copy">
           <h2>
             Sizleri
