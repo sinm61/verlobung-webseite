@@ -33,6 +33,9 @@ h1 { font-family: "Italiana", "Cormorant Garamond", serif; font-size: clamp(46px
 .paper-section, .details-section, .gallery-section { padding: 76px 28px; max-width: 580px; margin: 0 auto; }
 .paper-section { position: relative; text-align: center; background: var(--paper); }
 .paper-section::before { content: ""; position: absolute; top: 20px; left: 50%; width: 1px; height: 35px; background: var(--line); }
+.floral-decoration { position: absolute; z-index: 0; width: clamp(230px, 76vw, 340px); height: auto; pointer-events: none; opacity: .46; }
+.floral-invitation { top: -5px; left: -5px; }
+.paper-section > :not(.floral-decoration), .location-section > :not(.floral-decoration) { position: relative; z-index: 1; }
 .section-number { font: 500 10px "DM Sans", sans-serif; color: var(--taupe); letter-spacing: .16em; margin: 0 0 28px; }
 .ink { color: var(--moss); margin-bottom: 13px; }
 h2 { font-size: clamp(39px, 11.5vw, 53px); line-height: .94; margin: 0; letter-spacing: -.03em; }
@@ -54,7 +57,8 @@ h2 em { font-weight: 400; }
 .schedule-row { min-height: 66px; display: flex; align-items: center; gap: 16px; padding: 6px 10px 6px 0; border-bottom: 1px solid var(--line); }
 .schedule-row time { flex: 0 0 52px; width: 52px; height: 52px; display: grid; place-items: center; border: 1px solid rgba(111, 121, 104, .55); border-radius: 50%; color: var(--moss); font: 500 10px "DM Sans", sans-serif; letter-spacing: 0; }
 .schedule-row strong { font: 500 20px/1.15 "Cormorant Garamond", Georgia, serif; }
-.location-section { max-width: 580px; margin: 0 auto; padding: 58px 28px 80px; background: #eee9df; }
+.location-section { position: relative; overflow: hidden; max-width: 580px; margin: 0 auto; padding: 58px 28px 80px; background: #eee9df; }
+.floral-location { top: -5px; right: -5px; transform: scaleX(-1); opacity: .42; }
 .location-section h2 { margin-bottom: 35px; }
 .location-card { padding: 26px 22px 22px; text-align: center; border: 1px solid rgba(67, 53, 47, .2); background: rgba(255,255,255,.27); }
 .location-mark { color: var(--moss); font: 29px/1 "Cormorant Garamond", Georgia, serif; }

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import envelopeImage from "./assets/envelope.png";
+import floralCorner from "./assets/floral-rose-garland-corner.png";
 import hands from "./assets/hands.jpeg";
 
 const invitation = {
@@ -106,6 +107,7 @@ function App() {
         className="paper-section invitation-section"
         id="invitation"
       >
+        <img className="floral-decoration floral-invitation" src={floralCorner} alt="" aria-hidden="true" />
         <p className="section-number">01</p>
         <p className="eyebrow ink">Sevgiyle</p>
         <h2>
@@ -123,6 +125,7 @@ function App() {
       </section>
 
       <section className="location-section">
+        <img className="floral-decoration floral-location" src={floralCorner} alt="" aria-hidden="true" />
         <p className="section-number">03</p>
         <p className="eyebrow ink">Konum</p>
         <h2>
